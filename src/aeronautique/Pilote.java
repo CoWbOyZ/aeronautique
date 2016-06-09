@@ -13,6 +13,11 @@ public class Pilote {
 		this.adresse = adresse;
 		this.salaire = salaire;
 	}
+	
+	public Pilote(int numeroPilote) {
+		super();
+		this.numeroPilote = numeroPilote;
+	}
 	@Override
 	public String toString() {
 		return "Pilote [numeroPilote=" + numeroPilote + ", nomPilote=" + nomPilote + ", adresse=" + adresse

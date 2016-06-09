@@ -7,6 +7,10 @@ public class Avion {
 	private String localisation;
 	private int capacite;
 	
+	public Avion() {
+		super();
+	}
+	
 	public Avion(int numero, String nom, String loc, int capacite) {
 		super();
 		this.numero = numero;
