@@ -14,4 +14,26 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/ressource/add_black.png</name>
+			<type>1</type>
+			<location>C:/Users/ib/Downloads/ic_note_add_black_24dp/web/ic_note_add_black_24dp_1x.png</location>
+		</link>
+		<link>
+			<name>src/ressource/delete_black.png</name>
+			<type>1</type>
+			<location>C:/Users/ib/Downloads/ic_delete_black_24dp/web/ic_delete_black_24dp_1x.png</location>
+		</link>
+		<link>
+			<name>src/ressource/description_black.png</name>
+			<type>1</type>
+			<location>C:/Users/ib/Downloads/ic_description_black_24dp/web/ic_description_black_24dp_1x.png</location>
+		</link>
+		<link>
+			<name>src/ressource/search_black.png</name>
+			<type>1</type>
+			<location>C:/Users/ib/Downloads/ic_search_black_24dp/web/ic_search_black_24dp_1x.png</location>
+		</link>
+	</linkedResources>
 </projectDescription>

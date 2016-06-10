@@ -1,114 +1,96 @@
 package aeronautique;
 
-import sun.util.calendar.BaseCalendar.Date;
-
 public class Vol {
 	private int numeroVol;
-	private String villeDepart;
-	private String villeArrivee;
-	private Date heureDepart;
-	private Date heureArrivee;
 	private int numeroPilote;
 	private int numeroAvion;
+	private String villeDepart;
+	private String villeArrivee;
+	private java.sql.Timestamp heureDepart;
+	private java.sql.Timestamp heureArrivee;
 
-	public Vol(int numeroVol, String villeDepart, String villeArrivee, Date heureDepart, Date heureArrivee) {
+	public Vol( 
+			int numeroPilote, 
+			int numeroAvion, 
+			String villeDepart, 
+			String villeArrivee, 
+			java.sql.Timestamp heureDepart, 
+			java.sql.Timestamp heureArrivee) {
 		super();
-		this.numeroVol = numeroVol;
+		this.numeroPilote = numeroPilote;
+		this.numeroAvion = numeroAvion;
 		this.villeDepart = villeDepart;
 		this.villeArrivee = villeArrivee;
 		this.heureDepart = heureDepart;
 		this.heureArrivee = heureArrivee;
 	}
-
+	
+	public Vol() {
+		super();
+	}
 
 	public int getNumeroVol() {
 		return numeroVol;
 	}
 
-
-
 	public void setNumeroVol(int numeroVol) {
 		this.numeroVol = numeroVol;
 	}
-
-
 
 	public String getVilleDepart() {
 		return villeDepart;
 	}
 
-
-
 	public void setVilleDepart(String villeDepart) {
 		this.villeDepart = villeDepart;
 	}
-
-
 
 	public String getVilleArrivee() {
 		return villeArrivee;
 	}
 
-
-
 	public void setVilleArrivee(String villeArrivee) {
 		this.villeArrivee = villeArrivee;
 	}
 
-
-
-	public Date getHeureDepart() {
+	public java.sql.Timestamp getHeureDepart() {
 		return heureDepart;
 	}
 
-
-
-	public void setHeureDepart(Date heureDepart) {
+	public void setHeureDepart(java.sql.Timestamp heureDepart) {
 		this.heureDepart = heureDepart;
 	}
 
-
-
-	public Date getHeureArrivee() {
+	public java.sql.Timestamp getHeureArrivee() {
 		return heureArrivee;
 	}
 
-
-
-	public void setHeureArrivee(Date heureArrivee) {
+	public void setHeureArrivee(java.sql.Timestamp heureArrivee) {
 		this.heureArrivee = heureArrivee;
 	}
-
-
 
 	public int getNumeroPilote() {
 		return numeroPilote;
 	}
 
-
-
 	public void setNumeroPilote(int numeroPilote) {
 		this.numeroPilote = numeroPilote;
 	}
-
-
 
 	public int getNumeroAvion() {
 		return numeroAvion;
 	}
 
-
-
 	public void setNumeroAvion(int numeroAvion) {
 		this.numeroAvion = numeroAvion;
 	}
 
-
-
+	
 	@Override
 	public String toString() {
-		return "Vol [numVol=" + numeroVol + ", villeDep=" + villeDepart + ", villeArr=" + villeArrivee + ", hDep=" + heureDepart
-				+ ", hArr=" + heureArrivee + "]";
-	}
+		return "Vol [numeroVol=" + numeroVol + ", numeroPilote=" + numeroPilote + ", numeroAvion=" + numeroAvion
+				+ ", villeDepart=" + villeDepart + ", villeArrivee=" + villeArrivee + ", heureDepart=" + heureDepart
+				+ ", heureArrivee=" + heureArrivee + "]";
+	}	
 	
 }

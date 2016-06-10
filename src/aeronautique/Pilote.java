@@ -14,10 +14,10 @@ public class Pilote {
 		this.salaire = salaire;
 	}
 	
-	public Pilote(int numeroPilote) {
+	public Pilote() {
 		super();
-		this.numeroPilote = numeroPilote;
 	}
+	
 	@Override
 	public String toString() {
 		return "Pilote [numeroPilote=" + numeroPilote + ", nomPilote=" + nomPilote + ", adresse=" + adresse
